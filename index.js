@@ -25,7 +25,7 @@ function titleCased() {
     const fixed = tutorial.split(" ")
         .map( word => word.slice(0, 1).toUpperCase() + word.slice(1) )
         .join (" ")
-     console.log( tutorial + " -> " + fixed ) 
+     console.log( tutorial + " - " + fixed ) 
      return fixed  
   })
 } 
